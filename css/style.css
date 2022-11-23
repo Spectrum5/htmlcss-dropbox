@@ -15,6 +15,7 @@ body {
     flex-wrap: wrap;
 }
 
+
 .column {
     flex-direction: column;
 }
