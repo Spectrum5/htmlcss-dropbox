@@ -1,3 +1,121 @@
 /* **********REGOLE GENERALI ********** */
-font-family: 'Noto Sans', sans-serif;
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
 
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.container-large {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.just-content {
+    justify-content: space-between;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+
+/* HEADER */
+#main-header {
+    position: fixed;
+    z-index: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main-nav {
+    align-items: center;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 70px;
+}
+
+.main-nav {
+    height: 70px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+main header {
+    height: 600px;
+}
+
+main header > .container-large {
+    height: 500px;
+}
+
+main > section {
+    margin-top: 30px;
+}
+
+.plan-col {
+    min-height: 400px;
+}
+
+#costumers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-box {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.big-box > div {
+    width: 50%;
+    height: 50%;
+}
+
+#features .flex > div {
+    min-height: 400px;
+}
+
+#find-partner .flex > div {
+    min-height: 400px;
+}
+
+#full-background {
+    background-color: rgb(116, 149, 221);
+    width: 100vw;
+    margin-top: 0;
+}
+
+/* FOOTER */
+footer {
+    
+}
