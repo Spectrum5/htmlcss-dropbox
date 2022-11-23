@@ -1,0 +1,401 @@
+/* **********REGOLE GENERALI ********** */
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.column {
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container-large {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.just-content {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.min-height-350 {
+    min-height: 350px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.button {
+    font-size: 1em;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-blue {
+    background-color: #0061ff;
+    color: white;
+}
+
+.button-border {
+    border: 1px solid black;
+    display: block;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.strong {
+    font-weight: bold;
+}
+
+#full-background {
+    background-color: #b4d0e7;
+    width: 100%;
+    margin-top: 0;
+}
+
+.bg-red {
+    background-color: #ff1c1c;
+}
+
+.bg-lightblue {
+    background-color: #b4d0e7;
+}
+
+.bg-lightgreen {
+    background-color: #a2d39b;
+}
+
+.bg-bordeux {
+    background-color: #61082b;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
+}
+
+.bg-lightbluesky {
+    background-color: #0093ce;
+}
+
+.bg-darkblue {
+    background-color: #0d2481;
+}
+
+.logo {
+    width: 50%;
+    filter: invert(1);
+}
+
+/* HEADER */
+#main-header {
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.main-nav {
+    height: 70px;
+    width: 98%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main header {
+    background-color: #b4d0e7;
+}
+
+.nav-sx .flex {
+    align-items: center;
+}
+
+.nav-list .flex {
+    gap: 30px;
+}
+
+.logo-header {
+    margin-right: 30px;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 70px;
+}
+
+h1 {            /* QUI INIZIA JUMBOTRON/ */
+    font-size: 78px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+}
+
+.jumbotron-paragraph.column {
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.jumbotron-img.col-8 {
+    position: relative;
+}
+
+.jumbotron-img.col-8.col-8 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fa-solid.fa-arrow-down {
+    font-size: 3em;
+    cursor: pointer;
+    padding: 40px 0;
+    margin-bottom: 0;
+}             /* QUI FINISCE JUMBOTRON */
+
+/* INIZIO SECTION 1 MAIN (3 COLONNE) */
+main > section {
+    margin-top: 120px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.mounth {
+    color: gray;
+}
+
+.plan-col {
+    border: 1px solid gray;
+}
+
+.plan-title {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.plan-selector {
+    margin-bottom: 30px;
+}
+
+.plan-selector span {
+    padding-right: 50px;
+}
+
+.plan-body {
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+li.flex {
+    gap: 10px;
+}
+
+.plan-body-description>*>*,
+.plan-body-pack>*>*:not([class^="button"]) {
+    padding: 15px 0;
+}
+
+.plan-body .button-blue {
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.price,
+.info {
+    display: block;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.info a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.plan-body-description i {
+    color: #0061ff;
+}
+
+hr {
+    height: 0;
+    width: 40px;
+    color: gray;
+}                   /* FINE SECTION 1 MAIN (3 COLONNE) */
+
+.row-1 {            /* INIZIO SECTION UFFICIO VENDITE */
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.row-1-main{
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hr-2 {
+    margin-top: 30px;
+    width: 80px;
+}
+
+.paragraph {
+    padding: 20px;
+    max-width: 750px;
+}                   /* FINE SECTION UFFICIO VENDITE */
+
+.container-500k {
+    max-width: 500px;
+}
+
+#costumers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-box {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: #f5f5f5;
+}
+
+.big-box > div {
+    width: 50%;
+    height: 50%;
+}
+.center-logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.team-view {
+    padding: 50px;
+    font-size: 15px;
+}
+
+.h2-red {
+    max-width: 400px;
+    font-size: 2.1em;
+    color: #61072a;
+    cursor: pointer;
+    
+}
+
+.button-normal {
+    background-color: white;
+    padding: 8px;
+}
+
+/* INIZIO DOMANDE FREQUENTI */
+
+.faq-list li {
+    padding: 40px 40px 40px 0;
+    border-top: 1px solid gray;
+}
+
+.title-faq {
+    margin-bottom: 60px;
+}
+
+.border-list {
+    border-bottom: 1px solid gray;
+}
+
+/* FOOTER */
+footer {
+    color: white;
+    background-color: #000;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+footer ul {
+    gap: 15px;
+}
+
+.h4-title {
+    padding-bottom: 40px;
+    font-size: 1.4em;
+}
+
+
+.hr-footer {
+    margin-top: 100px;
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.footer-language select {
+    border: none;
+    color: gray;
+    background: none;
+}
+
+.fa-earth-americas {
+    color: gray;
+}
+
