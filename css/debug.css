@@ -8,10 +8,6 @@
     background-color: aquamarine;
 }
 
-.debug main header {
-    background-color: lightcoral;
-}
-
 .debug main header > .container-large {
     background-color: cornflowerblue;
 }
