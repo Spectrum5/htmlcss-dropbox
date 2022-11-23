@@ -401,3 +401,45 @@ footer ul {
 
 /* ********** BONUS ********** */
 
+.menu.flex li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu.flex a {
+    display: block;
+    transition: .3s;
+}
+
+.menu.flex a:hover {
+    color: #222;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border: 1px solid black;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu .has-children:hover .sub-menu {
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+    top: 20px;
+}
+
+.sub-menu li {
+    width: 250px;
+    border: 1px solid gray;
+}
+
+.sub-menu a {
+    color: #222;
+}
+
+.sub-menu a:hover {
+    background: #0093ce;
+}
