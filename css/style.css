@@ -44,6 +44,17 @@ body {
     margin-bottom: 30px;
 }
 
+.button {
+    font-size: 1em;
+    padding: 5px 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-blue {
+    background-color: #0061ff;
+    color: white;
+}
 
 /* HEADER */
 #main-header {
@@ -53,11 +64,6 @@ body {
     left: 0;
     width: 100%;
 }
-
-.main-nav {
-    align-items: center;
-}
-
 /* MAIN */
 
 main {
@@ -66,16 +72,25 @@ main {
 
 .main-nav {
     height: 70px;
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
-}
-
-main header {
-    height: 600px;
+    align-items: center;
 }
 
 main header > .container-large {
     height: 500px;
+}
+
+.nav-sx .flex {
+    align-items: center;
+}
+
+.nav-list .flex {
+    gap: 30px;
+}
+
+.logo {
+    margin-right: 30px;
 }
 
 main > section {
