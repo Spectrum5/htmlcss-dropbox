@@ -86,9 +86,42 @@ body {
 }
 
 #full-background {
-    background-color: rgb(116, 149, 221);
+    background-color: #b4d0e7;
     width: 100vw;
     margin-top: 0;
+}
+
+.bg-red {
+    background-color: #ff1c1c;
+}
+
+.bg-lightblue {
+    background-color: #b4d0e7;
+}
+
+.bg-lightgreen {
+    background-color: #a2d39b;
+}
+
+.bg-bordeux {
+    background-color: #61082b;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
+}
+
+.bg-lightbluesky {
+    background-color: #0093ce;
+}
+
+.bg-darkblue {
+    background-color: #0d2481;
+}
+
+.logo {
+    width: 50%;
+    filter: invert(1);
 }
 
 /* HEADER */
@@ -119,7 +152,7 @@ main header {
     gap: 30px;
 }
 
-.logo {
+.logo-header {
     margin-right: 30px;
 }
 
@@ -271,11 +304,21 @@ hr {
 .big-box {
     width: calc(100% / 3);
     height: calc(100vw / 3);
+    background-color: #f5f5f5;
 }
 
 .big-box > div {
     width: 50%;
     height: 50%;
+}
+.center-logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.team-view {
+    padding: 50px;
+    font-size: 15px;
 }
 
 #features .flex > div {

@@ -47,12 +47,11 @@
 }
 
 .debug .big-box {
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
     border: 2px dashed red;
 }
 
 .debug .big-box > div {
-    background-color: deepskyblue;
     border: 2px dashed red;
 }
 
