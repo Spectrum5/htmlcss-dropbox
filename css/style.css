@@ -111,7 +111,7 @@ main {
     margin-top: 70px;
 }
 
-h1 {
+h1 {            /* QUI INIZIA JUMBOTRON/ */
     font-size: 78px;
     margin-bottom: 50px;
     padding-top: 40px;
@@ -120,7 +120,6 @@ h1 {
 .jumbotron-paragraph.column {
     align-items: flex-start;
     gap: 30px;
-    margin-bottom: 50px;
 }
 
 .jumbotron-img.col-8 {
@@ -135,11 +134,12 @@ h1 {
 
 .fa-solid.fa-arrow-down {
     font-size: 3em;
-    font-weight: bold;
-    padding: 15px 0;
     cursor: pointer;
-}
+    padding: 40px 0;
+    margin-bottom: 0;
+}             /* QUI FINISCE JUMBOTRON */
 
+/* INIZIO SECTION 1 MAIN (3 COLONNE) */
 main > section {
     margin-top: 30px;
 }
