@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    max-width: 1150px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -49,7 +49,7 @@ body {
     width: 100%;
 }
 
-.margin-bottom-30 {
+.margin-bottom-50 {
     margin-bottom: 30px;
 }
 
@@ -141,11 +141,88 @@ h1 {            /* QUI INIZIA JUMBOTRON/ */
 
 /* INIZIO SECTION 1 MAIN (3 COLONNE) */
 main > section {
-    margin-top: 30px;
+    margin-top: 120px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.mounth {
+    color: gray;
 }
 
 .plan-col {
     min-height: 400px;
+    border: 1px solid gray;
+}
+
+.plan-title {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.plan-selector {
+    margin-bottom: 30px;
+}
+
+.plan-selector span {
+    padding-right: 50px;
+}
+
+.plan-body {
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+li.flex {
+    gap: 10px;
+}
+
+.plan-body-description>*>*,
+.plan-body-pack>*>*:not([class^="button"]) {
+    padding: 15px 0;
+}
+
+.plan-body .button-blue {
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.price,
+.info {
+    display: block;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.info a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.plan-body-description i {
+    color: #0061ff;
+}
+
+hr {
+    height: 0;
+    width: 40px;
+    color: gray;
 }
 
 #costumers {
